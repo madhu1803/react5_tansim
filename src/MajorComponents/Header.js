@@ -9,7 +9,12 @@ import NavLink from "../Components/NavLink";
 export default class Header extends Component {
   render() {
     return (
-      <Navbar bg="white" expand="lg" className="navbar-container text-dark">
+      <Navbar
+        bg="white"
+        expand="lg"
+        className="navbar-container"
+        style={{ borderBottom: "1px solid lightgray" }}
+      >
         <Navbar.Brand href="#home">
           <img
             src="https://tansim.in/static/media/tansim.9bcbcc57.png"

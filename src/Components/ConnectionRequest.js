@@ -33,14 +33,6 @@ export default class ConnectionRequest extends Component {
             title="Prodjar"
             subtitle="Design Development,seo branding & development kits."
           />
-          <Card1
-            title="Prodjar"
-            subtitle="Design Development,seo branding & development kits."
-          />
-          <Card1
-            title="Prodjar"
-            subtitle="Design Development,seo branding & development kits."
-          />
         </div>
       </div>
     );

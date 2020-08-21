@@ -11,16 +11,18 @@ export default class Card1 extends Component {
         <Card className={`card-container ${shadow ? "shadow" : null}`}>
           <Card.Body>
             <Card.Title>
-              <GiPlainCircle className="mr-4" />
+              <GiPlainCircle className="round-icon mr-2" />
               <Button variant="primary" className="btn-sm">
-                Primary
+                Connect
               </Button>{" "}
               <Button variant="outline-danger" className="btn-sm">
-                Danger
+                Reject
               </Button>{" "}
             </Card.Title>
-            <Card.Subtitle className="mt-4 text-muted">{title}</Card.Subtitle>
-            <Card.Text>{subtitle}</Card.Text>
+            <Card.Subtitle className="mt-2 title">
+              <strong>{title}</strong>
+            </Card.Subtitle>
+            <Card.Text className="subtitle">{subtitle}</Card.Text>
           </Card.Body>
         </Card>
       </div>

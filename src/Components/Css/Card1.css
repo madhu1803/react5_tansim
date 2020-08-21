@@ -1,3 +1,15 @@
 .card-container {
     border: none !important;
 }
+
+.card-container .round-icon {
+    font-size: 35px;
+}
+
+.card-container .title {
+    font-size: 13px;
+}
+
+.card-container .subtitle {
+    font-size: 11px;
+}

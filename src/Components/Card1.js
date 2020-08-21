@@ -4,7 +4,7 @@ import { Card } from "react-bootstrap";
 export default class Card1 extends Component {
   render() {
     return (
-      <div>
+      <div className="col-lg-4">
         <Card style={{ width: "14rem" }}>
           <Card.Body>
             <Card.Title>Card Title</Card.Title>

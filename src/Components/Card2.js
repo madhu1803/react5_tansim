@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Card } from "react-bootstrap";
 
 export default class Card2 extends Component {
   render() {

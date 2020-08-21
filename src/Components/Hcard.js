@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./Css/Card.css";
+import "./Css/Card1.css";
 
 export default class Hcard extends Component {
   render() {
@@ -19,10 +19,10 @@ export default class Hcard extends Component {
           </div>
           <div className="col-md-8">
             <div className="card-body">
-              <h5 className="card-title">{title}</h5>
-              <p className="card-text">{subtitle}</p>
+              <h5 className="card-title title">{title}</h5>
+              <p className="card-text subtitle">{subtitle}</p>
               <p className="card-text">
-                <small className="text-muted">{time}</small>
+                <small className="text-muted time">{time}</small>
                 <small style={{ float: "right" }}>
                   <Icon className="mr-1" />
                   AWS Group

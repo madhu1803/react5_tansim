@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./Css/Card.css";
+import "./Css/Card1.css";
 import { GiPlainCircle } from "react-icons/gi";
 import { Card, Button } from "react-bootstrap";
 

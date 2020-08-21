@@ -10,7 +10,8 @@
     font-size: 13px;
 }
 
-.card-container .subtitle {
+.card-container .subtitle,
+.card-container .time {
     font-size: 11px;
 }
 

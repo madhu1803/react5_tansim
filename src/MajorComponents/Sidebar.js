@@ -7,21 +7,29 @@ export default class Sidebar extends Component {
       <div>
         <ListGroup className="mt-5">
           <SideList
-            title="Tansim Guidelines And Benefits Of Organisation"
+            title="TANSIM Guidelines And Benefits Of Organisation"
             isBtn={true}
           />
         </ListGroup>
-
-        <ListGroup className="mt-5">
-          <SideList title="Incubator Linked with startups" />
-          <SideList title="Ecosystem" />
-          <SideList title="Resource" />
-          <SideList title="Blog/News" />
-          <SideList title="Applied Events" />
-          <SideList title="Applied Deals" />
-          <SideList title="Incubator Linked with startups" />
-          <SideList title="Applied Schemes" />
-          <SideList title="FAQ'S" />
+        <p className="mt-5">
+          <strong>Quick Actions</strong>
+        </p>
+        <ListGroup>
+          <SideList
+            title="Incubator Linked with startups"
+            isUnderlined={true}
+          />
+          <SideList title="Ecosystem" isUnderlined={true} />
+          <SideList title="Resource" isUnderlined={true} />
+          <SideList title="Blog/News" isUnderlined={true} />
+          <SideList title="Applied Events" isUnderlined={true} />
+          <SideList title="Applied Deals" isUnderlined={true} />
+          <SideList
+            title="Incubator Linked with startups"
+            isUnderlined={true}
+          />
+          <SideList title="Applied Schemes" isUnderlined={true} />
+          <SideList title="FAQ'S" isUnderlined={true} />
         </ListGroup>
       </div>
     );

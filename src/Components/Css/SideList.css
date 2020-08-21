@@ -1,0 +1,9 @@
+.list-group-item {
+    border: none !important;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+.underlined {
+    text-decoration: underline;
+}

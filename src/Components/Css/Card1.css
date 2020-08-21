@@ -3,7 +3,7 @@
 }
 
 .card-container .round-icon {
-    font-size: 35px;
+    font-size: 37px;
 }
 
 .card-container .title {
@@ -12,4 +12,11 @@
 
 .card-container .subtitle {
     font-size: 11px;
+}
+
+.card-container .btn-sm {
+    padding: .25rem .5rem;
+    font-size: 0.600rem;
+    line-height: 1.5;
+    border-radius: .2rem;
 }

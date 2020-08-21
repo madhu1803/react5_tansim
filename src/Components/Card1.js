@@ -11,7 +11,7 @@ export default class Card1 extends Component {
         <Card className={`card-container ${shadow ? "shadow" : null}`}>
           <Card.Body>
             <Card.Title>
-              <GiPlainCircle className="round-icon mr-2" />
+              <GiPlainCircle className="round-icon mr-4" />
               <Button variant="primary" className="btn-sm">
                 Connect
               </Button>{" "}

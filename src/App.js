@@ -17,7 +17,7 @@ export default class App extends Component {
             <div className="col-lg-8">
               <MainBody />
             </div>
-            <div className="col-lg-4">
+            <div className="col-lg-4 d-lg-block d-md-none d-sm-none">
               <Sidebar />
             </div>
           </div>

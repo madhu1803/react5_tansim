@@ -8,16 +8,39 @@ export default class ConnectionRequest extends Component {
       <div>
         <OutlineHeader title="Connection Request" />
         <div className="row">
-          <Card1 />
-          <Card1 />
-          <Card1 />
-          <Card1 />
-          <Card1 />
-          <Card1 />
-          <Card1 />
-          <Card1 />
-          <Card1 />
-          <Card1 />
+          <Card1
+            title="Prodjar"
+            subtitle="Design Development,seo branding & development kits."
+            shadow={true}
+          />
+          <Card1
+            title="Prodjar"
+            subtitle="Design Development,seo branding & development kits."
+          />
+          <Card1
+            title="Prodjar"
+            subtitle="Design Development,seo branding & development kits."
+          />
+          <Card1
+            title="Prodjar"
+            subtitle="Design Development,seo branding & development kits."
+          />
+          <Card1
+            title="Prodjar"
+            subtitle="Design Development,seo branding & development kits."
+          />
+          <Card1
+            title="Prodjar"
+            subtitle="Design Development,seo branding & development kits."
+          />
+          <Card1
+            title="Prodjar"
+            subtitle="Design Development,seo branding & development kits."
+          />
+          <Card1
+            title="Prodjar"
+            subtitle="Design Development,seo branding & development kits."
+          />
         </div>
       </div>
     );

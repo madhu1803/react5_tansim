@@ -1,22 +1,24 @@
 import React, { Component } from "react";
+import "./Css/Card2.css";
 import { Card } from "react-bootstrap";
 
 export default class Card2 extends Component {
   render() {
+    let { title, subtitle, text, subtext, time } = this.props;
     return (
-      <div className="col-lg-4">
-        <Card style={{ width: "14rem" }}>
-          <Card.Body>
-            <Card.Title>Card Title</Card.Title>
-            <Card.Subtitle className="mb-2 text-muted">
-              Card Subtitle
+      <div className="col-lg-4 mb-4">
+        <Card className="card-container text-capitalize">
+          <Card.Body className="mt-2">
+            <Card.Title>{title}</Card.Title>
+            <Card.Subtitle className="mb-5 text-muted">
+              {subtitle}
             </Card.Subtitle>
             <Card.Text>
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
+              <p>{text}</p>
+              <small>{subtext}</small>
+              <br />
+              <small className="text-muted">{time}</small>
             </Card.Text>
-            <Card.Link href="#">Card Link</Card.Link>
-            <Card.Link href="#">Another Link</Card.Link>
           </Card.Body>
         </Card>
       </div>

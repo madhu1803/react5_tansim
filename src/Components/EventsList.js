@@ -8,16 +8,69 @@ export default class ConnectionRequest extends Component {
       <div>
         <OutlineHeader title="Events List" />
         <div className="row">
-          <Card2 />
-          <Card2 />
-          <Card2 />
-          <Card2 />
-          <Card2 />
-          <Card2 />
-          <Card2 />
-          <Card2 />
-          <Card2 />
-          <Card2 />
+          <Card2
+            title="14 Friday"
+            subtitle="September 2019"
+            text="UI/UX Experience ep 1"
+            subtext="AWS User Group - chennai"
+            time="starts at 6.30 p.m."
+          />
+          <Card2
+            title="14 Friday"
+            subtitle="September 2019"
+            text="UI/UX Experience ep 1"
+            subtext="AWS User Group - chennai"
+            time="starts at 6.30 p.m."
+          />
+          <Card2
+            title="14 Friday"
+            subtitle="September 2019"
+            text="UI/UX Experience ep 1"
+            subtext="AWS User Group - chennai"
+            time="starts at 6.30 p.m."
+          />
+          <Card2
+            title="14 Friday"
+            subtitle="September 2019"
+            text="UI/UX Experience ep 1"
+            subtext="AWS User Group - chennai"
+            time="starts at 6.30 p.m."
+          />
+          <Card2
+            title="14 Friday"
+            subtitle="September 2019"
+            text="UI/UX Experience ep 1"
+            subtext="AWS User Group - chennai"
+            time="starts at 6.30 p.m."
+          />
+          <Card2
+            title="14 Friday"
+            subtitle="September 2019"
+            text="UI/UX Experience ep 1"
+            subtext="AWS User Group - chennai"
+            time="starts at 6.30 p.m."
+          />
+          <Card2
+            title="14 Friday"
+            subtitle="September 2019"
+            text="UI/UX Experience ep 1"
+            subtext="AWS User Group - chennai"
+            time="starts at 6.30 p.m."
+          />
+          <Card2
+            title="14 Friday"
+            subtitle="September 2019"
+            text="UI/UX Experience ep 1"
+            subtext="AWS User Group - chennai"
+            time="starts at 6.30 p.m."
+          />
+          <Card2
+            title="14 Friday"
+            subtitle="September 2019"
+            text="UI/UX Experience ep 1"
+            subtext="AWS User Group - chennai"
+            time="starts at 6.30 p.m."
+          />
         </div>
       </div>
     );

@@ -29,9 +29,11 @@ export default class Header extends Component {
             <NavDropDownLink title="For Sartups" />
             <NavDropDownLink title="For Enabler" />
             <NavDropDownLink title="EcoSystem" />
-            <NavLink Icon={MdNotificationsNone} />
-            <NavLink Icon={AiOutlineShareAlt} />
-            <NavLink Icon={CgProfile} />
+          </Nav>
+          <Nav className="ml-auto">
+            <NavLink Icon={MdNotificationsNone} className="nav-icon" />
+            <NavLink Icon={AiOutlineShareAlt} className="nav-icon" />
+            <NavLink Icon={CgProfile} className="nav-icon" />
           </Nav>
         </Navbar.Collapse>
       </Navbar>

@@ -4,7 +4,7 @@ import { Card } from "react-bootstrap";
 export default class Footer extends Component {
   render() {
     return (
-      <Card>
+      <Card className="mt-5">
         <Card.Body>
           <Card.Text>
             <div className="container">

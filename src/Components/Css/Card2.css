@@ -4,6 +4,7 @@
 
 .card-container.card2 .card2-title {
     border-left: 3px solid red;
+    /* font-size: 30px; */
 }
 
 .card-container.card2 .main-text {

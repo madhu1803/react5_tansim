@@ -7,14 +7,14 @@ export default class Card2 extends Component {
     let { title, subtitle, text, subtext, time } = this.props;
     return (
       <div className="col-lg-4 mb-4">
-        <Card className="card-container text-capitalize">
+        <Card className="card-container text-capitalize card2">
           <Card.Body className="mt-2">
-            <Card.Title>{title}</Card.Title>
-            <Card.Subtitle className="mb-5 text-muted">
-              {subtitle}
-            </Card.Subtitle>
+            <Card.Title className="card2-title">{title}</Card.Title>
+            <Card.Subtitle className="text-muted">{subtitle}</Card.Subtitle>
             <Card.Text>
-              <p>{text}</p>
+              <p className="main-text">
+                <strong>{text}</strong>
+              </p>
               <small>{subtext}</small>
               <br />
               <small className="text-muted">{time}</small>

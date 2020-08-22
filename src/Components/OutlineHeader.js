@@ -6,7 +6,7 @@ export default class OutlineHeader extends Component {
     return (
       <div className="mt-5">
         <p className="text-muted">
-          {title} <strong style={{ float: "right" }}>See All</strong>
+          {title} <strong style={{ float: "right" }}>View All</strong>
           <hr />
         </p>
         <br />

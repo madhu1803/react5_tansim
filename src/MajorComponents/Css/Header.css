@@ -1,0 +1,7 @@
+.navbar-container {
+    height: 70px !important;
+}
+
+.navbar-container.navbar-light .navbar-nav .nav-link {
+    color: black !important;
+}

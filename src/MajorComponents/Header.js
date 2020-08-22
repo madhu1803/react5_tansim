@@ -1,20 +1,17 @@
 import React, { Component } from "react";
 import { Nav, Navbar } from "react-bootstrap";
+import "./Css/Header.css";
 import { MdNotificationsNone } from "react-icons/md";
-import { AiOutlineShareAlt } from "react-icons/ai";
+import { AiOutlineShareAlt, AiOutlineMenu } from "react-icons/ai";
 import { CgProfile } from "react-icons/cg";
+import { BiDotsVerticalRounded } from "react-icons/bi";
 import NavDropDownLink from "../Components/NavDropDownLink";
 import NavLink from "../Components/NavLink";
 
 export default class Header extends Component {
   render() {
     return (
-      <Navbar
-        bg="white"
-        expand="lg"
-        className="navbar-container"
-        style={{ borderBottom: "1px solid lightgray" }}
-      >
+      <Navbar bg="white" expand="lg" className="navbar-container">
         <Navbar.Brand href="#home">
           <img
             src="https://tansim.in/static/media/tansim.9bcbcc57.png"
@@ -29,11 +26,12 @@ export default class Header extends Component {
             <NavDropDownLink title="For Sartups" />
             <NavDropDownLink title="For Enabler" />
             <NavDropDownLink title="EcoSystem" />
+            <NavLink Icon={BiDotsVerticalRounded} />
           </Nav>
           <Nav className="ml-auto">
-            <NavLink Icon={MdNotificationsNone} className="nav-icon" />
-            <NavLink Icon={AiOutlineShareAlt} className="nav-icon" />
-            <NavLink Icon={CgProfile} className="nav-icon" />
+            <NavLink Icon={MdNotificationsNone} />
+            <NavLink Icon={AiOutlineShareAlt} />
+            <NavLink Icon={CgProfile} />
           </Nav>
         </Navbar.Collapse>
       </Navbar>

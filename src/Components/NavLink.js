@@ -5,8 +5,8 @@ export default class NavLink extends Component {
   render() {
     let { Icon } = this.props;
     return (
-      <Nav.Link href="#">
-        <Icon />
+      <Nav.Link href="#" className="m-2">
+        <Icon style={{ fontSize: "20px" }} />
       </Nav.Link>
     );
   }

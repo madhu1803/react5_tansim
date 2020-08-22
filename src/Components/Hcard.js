@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./Css/Card1.css";
+import { MdDateRange } from "react-icons/md";
 
 export default class Hcard extends Component {
   render() {
@@ -22,6 +23,7 @@ export default class Hcard extends Component {
               <h5 className="card-title title">{title}</h5>
               <p className="card-text subtitle">{subtitle}</p>
               <p className="card-text">
+                <MdDateRange className="mr-1" />
                 <small className="text-muted time">{time}</small>
                 <small style={{ float: "right" }}>
                   <Icon className="mr-1" />

@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { ListGroup, Button } from "react-bootstrap";
+import { BsFlagFill } from "react-icons/bs";
 import "./Css/SideList.css";
 export default class SideList extends Component {
   render() {
@@ -8,6 +9,7 @@ export default class SideList extends Component {
     if (isBtn === true)
       btn = (
         <Button variant="danger" className="mt-2 btn-sm">
+          <BsFlagFill className="mr-1 flag-icon" />
           Get Started
         </Button>
       );
